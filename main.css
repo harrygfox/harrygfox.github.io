@@ -2,28 +2,14 @@ body {
   background-color: rgb(30,250,230);
 }
 
-h1 {
+.name {
   color: rgb(200,220,200);
-  background-color: rgba(30,150,250,0.6);
-  font-size: 4em;
-  text-align: center;
-  padding: 0.4em;
-  font-weight: 300;
-  letter-spacing: -4px;
+  font-weight: 100;
+  font-size: 2em;
   margin: 0;
 }
 
-ul {
-  text-align: center;
-  padding: 0;
-  width: 100%;
-}
 
-li {
-  display: inline-block;
-  width: 20%;
-  font-size: 1.3em;
-}
 
 a {
   color: #000;
@@ -33,8 +19,22 @@ a:hover {
   color: #000;
 }
 
-.first {
-  padding-top: 1em;
+.nav-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Second Row */
+.second {
+  padding-top: 5em;
+}
+
+.header {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 5em;
+  margin: 0 0 0.51em;
+  font-style: italic;
 }
 
 .title {
@@ -59,6 +59,6 @@ p {
 
 img {
   display: block;
-  margin: 1em auto;
+  margin: 0 auto;
   max-width: 50%;
 }
