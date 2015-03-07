@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(30,250,230);
+}
+
+h1 {
+  color: rgb(200,220,200);
+  background-color: rgba(30,150,250,0.6);
+  font-size: 4em;
+  text-align: center;
+  padding: 0.4em;
+  font-weight: 300;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  width: 20%;
+  font-size: 1.3em;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.first {
+  padding-top: 1em;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+}
+
+.slogan {
+  color: #333;
+  background-color: #ddd;
+  padding: 1em;
+  font-style: italic;
+}
+
+
+p {
+  font-weight: 900;
+  text-align: left;
+  color: blue;
+}
+
+
+img {
+  display: block;
+  margin: 1em auto;
+  max-width: 50%;
+}
