@@ -12,26 +12,65 @@
 
     <div class="row first">
 
-      <div class="col-md-4 col-md-offset-1">
-        <h1>Harry Fox</h1>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          <li><a href="">About me</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">My Pals</a></li>
-        </ul>
+      <div class="col-md-12 col-md-offset-0 nav-wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+          <div class="navbar-header">
+
+              <!-- Hamburger Menu -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fac-example-navbar-collapse-1">
+
+              <!-- The spans are styled to look like a Hamburger Menu -->
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+
+              </button>
+              <a class="navbar-brand name" href="http://harrygfox.github.io">Harry Fox</a>
+          </div><!-- /.navbar-header -->
+
+          <div class="collapse navbar-collapse" id="fac-example-navbar-collapse-1">
+
+              <ul class="nav navbar-nav">
+                  <li>
+                      <a href="#">
+                        About me
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                        Contact
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#pals">
+                        My Pals
+                      </a>
+                  </li>
+              </ul>
+
+          </div><!-- /.navbar-collapse -->
+
+        </nav>
+
       </div>
 
     </div><!-- /.row -->
 
     <div class="row second">
 
-      <div class="col-md-3 col-md-offset-3">
-        <h3 class="title">Professional Coder / Wrestler</h3>
+      <div class="col-md-6 col-md-offset-3">
+        <h1 class="header">Harry Fox</h1>
       </div>
-      <div class="col-md-3">
-        <img src="http://i.imgur.com/tE29UG4.jpg" alt="My dad at Christmas">
+
+      <div class="col-md-6 col-md-offset-3">
+        <img src="http://30.media.tumblr.com/tumblr_m1ag0yGnY01qimek4o1_500.jpg" alt="My dad at Christmas">
+      </div>
+
+      <div class="col-md-6 col-md-offset-3" style="display: table; overflow: hidden;">
+       <h3 class="title">Professional Coder / Wrestler</h3>
       </div>
 
       <div class="col-md-6 col-md-offset-3">
@@ -40,19 +79,45 @@
     </div><!-- /.row -->
 
     <div class="row third">
-      <div class="col-md-8 col-md-offset-2 blurb">
+      <div class="col-md-4 col-md-offset-2 blurb">
         <p>I have been writing code for 17 years and wrestling my way to become heavyweight Champ since leaving college.</p>
 
         <p>Get in touch if you want to book me for your next event!</p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div class="col-md-4 blurb">
+        <p>I have been writing code for 17 years and wrestling my way to become heavyweight Champ since leaving college.</p>
+
+        <p>Get in touch if you want to book me for your next event!</p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div><!-- /.row -->
+
+    <div class="row friend" id="pals">
+      <div class="col-md-6 col-md-offset-3">
+
+        <h3>Beardyman</h3>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SUKJA4UAruw" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+    </div>
 
   </div>
 
 
 
-
-
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 
 </body>
