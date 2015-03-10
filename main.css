@@ -1,64 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
 body {
   background-color: rgb(30,250,230);
+  font-family: 'PT Serif', serif;
 }
 
-.name {
-  color: rgb(200,220,200);
-  font-weight: 100;
-  font-size: 2em;
-  margin: 0;
-}
-
-
-
-a {
-  color: #000;
-}
-a:hover {
-  text-decoration: underline;
-  color: #000;
-}
-
-.nav-wrapper {
-  padding-left: 0;
-  padding-right: 0;
-}
-/* Second Row */
-.second {
-  padding-top: 5em;
-}
-
-.header {
+h1, h3, p {
   text-align: center;
-  font-weight: 100;
-  letter-spacing: 2px;
-  font-size: 5em;
-  margin: 0 0 0.51em;
-  font-style: italic;
-}
-
-.title {
-  text-align: center;
-  font-weight: 300;
-}
-
-.slogan {
-  color: #333;
-  background-color: #ddd;
-  padding: 1em;
-  font-style: italic;
-}
-
-
-p {
-  font-weight: 900;
-  text-align: left;
-  color: blue;
-}
-
-
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 50%;
+  font-size: 6em;
+  font-weight: 400;
 }
