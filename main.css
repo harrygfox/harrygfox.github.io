@@ -3,10 +3,10 @@
 body {
   background-color: rgb(203, 249, 255);
   font-family: 'PT Serif', serif;
-  -webkit-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
-  -moz-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
-  box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
-  height: 100vh;
+  /*-webkit-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);*/
+  /*-moz-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);*/
+  /*box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);*/
+  /*height: 100vh;*/
   margin: 0;
 }
 
