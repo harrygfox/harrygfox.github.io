@@ -10,13 +10,6 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 h1, h3, p {
   text-align: center;
   margin: 0;
@@ -39,4 +32,11 @@ p {
   margin-top: 4em;
   color: #111;
   margin-top: 3em;
+}
+
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
