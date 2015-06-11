@@ -1,0 +1,85 @@
+body {
+	font-family: 'Tinos', serif;
+	font-size: 1.5em;
+}
+
+.header{
+	background-image: url('http://www.harryfox.me/work/KMconcept/img/index/mobileheader.jpg');
+	background-size: 100% auto;
+}
+#header{
+	background-color: rgba(255,255,255, 0.7);
+}
+
+#logo {
+	width: 200px;
+	display: block;
+	margin: 35px auto;
+	padding: 0;
+	border: solid rgba(77,77,77, 0.5) 30px;
+	border-radius: 50%;
+}
+
+/* CAROUSEL
+****************/
+
+.carousel-inner {
+	max-height: 255px;
+}
+.item img {
+	min-height: 100%;
+}
+
+/* NAVIGATION
+****************/
+#navbar {
+	background-image: url('http://www.harryfox.me/work/KMconcept/img/index/mobileheader.jpg');
+	background-size: 100%;
+}
+#navbar > .row {
+	background-color: rgba(255,255,255, 0.9);
+}
+#navbar p {
+	font-size: 1.4em;
+}
+
+#nav1 {
+	text-align: left;
+	border-left: 2px solid gray;
+	line-height: 1.2;
+	padding-left: 5px;
+	padding-top: 20px;
+	margin-right: 2px;
+}
+#nav2 {
+	text-align: right;
+	border-right: 2px solid gray;
+	line-height: 1.5;
+	padding-right: 5px;
+	padding-top: 0;
+	padding-bottom: 50px;
+	margin-left: 2px;
+	/*margin-bottom: 15px;*/
+}
+#nav2 a {
+	text-decoration: none;
+	color: inherit;
+}
+#nav2 p {
+	margin: 0;
+}
+#portfolio {
+	margin-right: -5px;
+}
+
+/*
+div {
+	border: red 1px solid;
+}*/	
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+
+body {
+	font-family: 'Tinos', serif;
+}
+
+
+
+#header {
+	padding:0;
+	margin-bottom: 0;
+	border: none;
+	
+}
+#logo {
+	width: 105px;
+	float: left;
+	margin: 38px 15px 0px 30px;
+}
+#name {
+	margin-bottom: -55px;
+	margin-top: 52px;
+}
+#title {
+	float: left;
+	padding: 30px 0 0 0;
+	font-size: 4em;
+}
+#pattern {
+	float: right;
+	height: 123px;
+	width: 58%;
+	position: relative;
+	padding-top: 8px;
+	margin-top: -24px;
+}
+#patternmobile {
+	display: none;
+}
+
+/* ACCORDIOM 
+*************/
+
+#wrapaccordion {
+	padding: 0;
+	margin-top: 40px;
+}
+.panel-default {
+	border: none;
+}
+.panel-heading {
+	background-image: url('http://www.harryfox.me/work/KMconcept/img/index/webheader.jpg');
+	background-size: 100% auto;
+	padding: 0;
+	margin-bottom: 10px;
+	border: none;
+}
+.panel-title {
+	height: 90px;
+	margin: 0;
+	padding-top: 30px;
+	font-size: 2em;
+	background-color: rgba(255,255,255,0.8);
+	border: none;
+}
+.panel-title > a {
+	padding: 0 750px 0 215px;
+	height: 90px;
+}
+.panel-title > a:hover {
+	text-decoration: none;
+	color: rgb(177,12,12);
+}
+
+.panel-body {
+	padding: 0;
+	border: none;
+}
+
+/*** BRANDING
+****************/
+.branding-content {
+	padding: 0;
+	border: none;
+}
+.branding-content div {
+	padding: 0;
+}
+.subtitle {
+	padding: 15px 0 10px 40px;
+}
+
+.branding-content img {
+	max-width: 100%;
+	padding: 5px
+}
+
+.blurb {
+	padding-top: 20px;
+	padding-right:10px;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 0;
+	display: block;
+	font-size: 0.85em;
+}
+
+
+
+/* FOOTER
+***************/
+
+.social {
+	text-align: center;
+	height: 10%;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.socialicon {
+	width: 100%;
+	padding-top: 8.33%;
+}
+
+
+
+

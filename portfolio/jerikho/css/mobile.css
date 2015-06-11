@@ -1,0 +1,132 @@
+/********************************************
+   Individual Slide Styles
+********************************************/
+
+.arrow {
+  display: none;
+}
+
+/**********
+ * SLIDE 1
+ **********/
+
+#slide-1 .hsContent {
+  padding-top:80px;
+  padding-bottom: 100px;
+}
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0
+    }
+
+    #slogan {
+      font-size:1.4em;
+      padding:0;
+      margin:-5px 0 50px 0;
+      text-align:center;
+    }
+
+    h3 {
+      margin:0;
+      font-size: 2.2em;
+    }
+
+/**********
+ * SLIDE 2
+ **********/
+
+#slide-2 .hsContent {
+  padding-bottom:60px;
+  padding-top:60px;
+}
+
+#slide2row {
+  padding-right: 0;
+}
+    .header2 {
+      margin-bottom: 0;
+      padding-left: 15px;
+      font-size: 2em;
+      margin-top: 10px; 
+    } 
+    .minilogoframe { 
+      margin-top:0;
+      padding:10px;
+    }
+    #problemframe {
+      margin-top: 20px;
+    }
+      .copy {
+        padding: 25px;
+        font-size: 1.2em; 
+        line-height: 1.2;
+      }
+    #solutionframe {
+      margin-top: 0;
+    }
+      .copy.end {
+        font-size:1.35em;
+        padding: 20px;
+        line-height: 1.5;
+      }
+
+/**********
+ * SLIDE 3
+ **********/
+
+#slide-3 .hsContent {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+    #phone {
+      
+    }
+
+    .phonebox {
+      padding:0;
+    }
+        .phonebox .copy {
+          border: 4px rgb(26,52,90) solid;
+          padding: 10px 12px 10px;
+          font-size: 1.2em;
+        }
+        .phonebox a {
+          text-decoration:none;  
+        }
+        
+
+/**********
+ * SLIDE 4
+ **********/
+
+#slide-4 .hsContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    .lastheader {
+      margin: 0;
+      font-size: 2.2em;
+      padding: 10px;
+    }
+    .copy.contact {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+      #thankyoumessage h2 {
+        margin: 0;
+        padding: 5px;
+      }
+      #thankyoumessage p {
+        margin: 0;
+      }
+
+
+
+
+
+
+
+

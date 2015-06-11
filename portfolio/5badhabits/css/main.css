@@ -1,0 +1,244 @@
+body {
+ background: #fff;
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto Slab', serif;
+ font-weight: 400;  
+ font-size: 1.3em; 
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+/********************
+ Header Div
+*********************/
+#header {
+    background-color: rgb(48,49,61);
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    border: none;
+    padding: 0;
+    box-shadow: 0 1px 10px #000;
+}
+
+/* Main Title */
+#title {
+    background-color: rgba(147,141,148,0.3);
+    border: none;
+}
+h1 {
+    font-size: 45px;
+    color: rgb(245, 194, 27);
+    margin-top: 10px;
+}
+
+/* Sub-Title */
+#subtitle {
+    font-family: 'Gilda Display', serif;
+    border: none;
+    padding-top: 8px;
+}
+h3 {
+    font-size: 20px;
+    color: rgb(255,255,255);
+    margin-top: 5px;
+}
+
+/********************
+ Introduction
+*********************/
+#intro {
+    text-align: center;
+    padding: 30px 10px 50px;
+    border-top: gray 1px solid;
+    border-bottom: black 10px solid;
+    background-color: rgb(233, 235, 216);
+}
+
+#intro div {
+    float:left;
+}
+
+#description {
+    padding: 10px 15px 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border: solid black 1px;
+    box-shadow: 0px 1px 10px #000;
+    background-image: url("../img/brushed.png");
+}
+
+#chicken {
+    margin-top: 15px;
+}
+
+#chicken img{
+    width:80%;
+    box-shadow: 0px 1px 10px #000;
+}
+
+
+
+/********************
+ Main Content 
+*********************/
+
+#content {
+    /*background-color: rgb(48,49,61);*/
+    background-image: url("../img/mahogany.jpg");
+}
+
+.main {
+    padding: 40px 0 40px;
+    /*border-bottom: 1px solid rgb(140,140,140)*/
+}
+
+#butts {
+    background-color: rgb(82,82,92);
+    color: rgb(245, 194, 27);
+    text-align: center;
+    margin-top: -20px;
+    border: 2px white solid;
+    padding: 5px;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 10px black;
+}
+#butts > p {
+    margin:0;
+}
+
+#box1 {
+    padding: 10px 10px 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid black 1px;
+    box-shadow: 0px 1px 10px #000;
+    background-color: rgb(196,242,255);
+    text-align: center;
+}
+
+#card1 {
+    text-align: center;
+}
+.col-xs-10 {
+    text-align: center;
+}
+
+ .card img {
+    width: 70%;
+    display: block;
+    margin:30px auto 20px;
+    border: white solid 2px;
+    border-radius: 60%;
+  }
+
+  .name {
+    font-family: 'Vollkorn', serif;
+    font-size: 1.2em;
+    background: white;
+    margin: 0 40px 0;
+    border: black solid 2px;
+    border-radius: 20%;
+  }
+
+#backtitle {
+    font-family: 'Vollkorn', serif;
+    font-size: 1.8em;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+#backinfo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding:0 7px;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 1;
+    -webkit-perspective:1000px;
+    perspective: 1000px;
+    display: inline-block;
+    margin:0 auto;
+  }
+
+  .card {
+    width: 240px;
+    height: 336px;
+    margin: 0 auto;
+    border:8px solid rgb(233, 235, 216);
+    cursor:pointer;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    transition: all 0.4s linear 0s;
+    -webkit-box-shadow: 0px 0px 10px #aaa;
+    box-shadow: 0px 0px 10px #aaa;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .wrapper:hover .card {
+    /*Task 5 here!*/
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  .face {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .front {
+    /*Task 3 here!*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/cardreverse.jpg");
+  }
+
+  .back {
+    background-color: rgb(233, 235, 216);
+    color: grey;
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 11px;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+/********************
+ FOOTER
+*********************/
+
+#footer {
+    text-align: left;
+    border-bottom: gray 1px solid;
+    border-top: black 10px solid;
+    background-color: rgb(233, 235, 216);
+    padding: 15px;
+}
+#footer a {
+    text-decoration: none;
+}
