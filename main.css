@@ -16,10 +16,10 @@ h1, h3, p {
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 400;
   color: #232323;
-  padding-top: 1em;
+  padding-top: 0.4em;
 }
 
 h3 {
@@ -37,6 +37,8 @@ p {
 .wrapper {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 150px;
+    /*  Padding-bottom for border effect  */
   margin-right: auto;
   margin-left: auto;
 }
