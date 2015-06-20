@@ -33,6 +33,10 @@ p {
   color: #111;
   margin-top: 3em;
 }
+span {
+  color: #444;
+  letter-spacing: 3px;
+}
 
 .wrapper {
   padding-right: 15px;
