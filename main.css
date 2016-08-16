@@ -15,44 +15,129 @@ body {
   margin: 7rem auto 3rem;
 }
 
-.social-icons {
-  display: absolute;
+/* Titles block   */
 
-}
-
-h1, h2 {
+.titles {
   text-align: center;
-  margin: auto;
+  word-wrap: break-word;
+  margin-bottom: 5rem;
 }
 
-h1 {
+.titles__name {
   font-family: 'Bungee Shade', cursive;
-  font-weight: 400;
-  font-size: 6rem;
+  font-weight: normal;
+  font-size: 6em;
 
   color: rgb(81, 55, 151);
   text-shadow: rgb(36, 109, 173) -6px -4px 0px;
 
-  word-wrap: break-word;
+  margin: 0;
 }
 
-h2 {
+.titles__job-title {
   font-family: 'Bungee', cursive;
+  font-size: 3.5em;
+  word-spacing: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+
   color: rgb(82, 136, 95);
-  font-size: 3.5rem;
+  text-shadow: rgb(255, 255, 255) 0px -1px 4px;
 }
-p {
+
+@media (max-width: 768px) {
+  .titles {
+    font-size: 0.7rem;
+  }
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+/* subheading block */
+
+.subheading {
+  font-size: 2rem;
+  text-transform: capitalize;
+
   text-align: center;
+
+  color: rgb(177, 170, 110);
+  margin: 1rem;
+}
+
+/* Portfolio Section */
+
+.portfolio {
+  font-size: 1.2rem;
+}
+
+/* list block*/
+
+.list {
   margin: 0;
-  font-size: 1rem;
-  margin-top: 4rem;
-  color: #ddd;
-  margin-top: 3rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list__li {
+  background-color: rgb(23, 22, 22);
+  box-shadow: rgb(144, 50, 50) -3px 3px 0px, 
+              rgb(57, 57, 171) 3px -3px 0px;
+
+  border-radius: 3px;
+  line-height: 2rem;
+  margin-bottom: 1.25rem;
+  padding: 0 1rem;
+}
+
+
+/* anchor block */
+.anchor:link {
+  color: rgb(206, 173, 158);
+}
+.anchor:visited {
+  color: rgb(111, 66, 45);
+}
+.anchor:hover {
+  color: rgb(239, 210, 197);
+}
+.anchor:active {
+  text-decoration: none;
 }
 
 span {
   color: #444;
-  letter-spacing: 3px;
 }
 
+/* SOCIAL icons block */
 
+.social-icons {
+  display: table;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons__icon {
+  display: table-cell;
+}
+
+.social-icons__link {
+  display: block;
+  margin: auto;
+  max-width: 50px;
+}
+
+.social-icons__img {
+  border-radius: 50%;
+  max-width: 50px;
+  
+}
+@media (max-width: 768px) {
+  .social-icons__img {
+    max-width: 40px;
+  }
+}
