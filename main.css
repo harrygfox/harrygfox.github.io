@@ -39,10 +39,14 @@ body {
   font-size: 3.5em;
   word-spacing: 1rem;
   letter-spacing: 2px;
-  margin-bottom: 0;
-
-  color: rgb(82, 136, 95);
-  text-shadow: rgb(255, 255, 255) 0px -1px 4px;
+  margin: 0.75rem auto;
+  
+  /* green */
+  /*color: rgb(82, 136, 95);*/
+  
+  /* pink */
+  color: rgb(187, 66, 106);
+  text-shadow: rgb(171, 32, 106) 0px -1px 6px;
 }
 
 @media (max-width: 768px) {
@@ -59,12 +63,14 @@ body {
 
 .subheading {
   font-size: 2rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
   text-align: center;
+  margin: 0;
 
-  color: rgb(177, 170, 110);
-  margin: 1rem;
+  color: rgb(36, 109, 173);
+  text-shadow: rgb(32, 80, 121) -4px 0px 0px;
+  
 }
 
 /* Portfolio Section */
