@@ -61,7 +61,7 @@ body {
 
 /* subheading block */
 
-.subheading {
+.section__heading {
   font-size: 2rem;
   text-transform: uppercase;
 
@@ -82,7 +82,7 @@ body {
   list-style-type: none;
 }
 
-.list__li {
+.list__item {
   background-color: rgb(23, 22, 22);
   box-shadow: rgb(144, 50, 50) -3px 3px 0px, 
               rgb(57, 57, 171) 3px -3px 0px;
