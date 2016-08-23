@@ -22,7 +22,7 @@
     100%    {text-shadow: rgb(36, 109, 173) -6px  -4px  0px   ;} /* BLUE */
 }
 
-.titles__name {
+.titles__primary {
     -webkit-animation-name: dancingshadow;
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
