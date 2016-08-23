@@ -97,9 +97,13 @@ body {
 
   font-size: 1.5em;
   font-family: 'Bungee Shade', cursive;
-  text-shadow: rgb(181, 183, 189) -21px -5px 0px;
 
   color: rgb(174, 158, 158);
+  text-shadow: rgb(181, 183, 189) -21px -5px 0px; /* light colours */
+
+  color: rgb(36, 109, 173); /* blue */
+  text-shadow: -21px -5px 0px rgb(82, 136, 95);  /*  green */
+  
 
 }
 
