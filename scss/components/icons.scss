@@ -1,0 +1,37 @@
+/* SOCIAL icons block */
+
+.social-icons {
+  display: table;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons__icon {
+  display: table-cell;
+}
+
+.social-icons__img-link {
+  display: block;
+  margin: auto;
+  max-width: 50px;
+}
+
+.social-icons__img {
+  border-radius: 50%;
+  max-width: 50px;
+}
+@media (max-width: 768px) {
+  .social-icons__img {
+    max-width: 40px;
+  }
+}
+
+.social-icons__label {
+  font-size: 1.5em;
+  margin: -0.5rem 0.5rem;
+  color: rgb(187, 66, 106);
+  text-shadow: rgb(171, 32, 106) 0px -1px 6px;
+  display: block;
+}

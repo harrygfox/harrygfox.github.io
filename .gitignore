@@ -4,6 +4,4 @@ npm-debug.log
 
 # Dependencies
 /node_modules
-
-# Sass cache
-/.sass-cache
+node_modules
