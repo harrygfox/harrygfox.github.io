@@ -7,17 +7,19 @@
 
 @import 
     
-    // ANIMATIONS
-    "animations/animation",
-
     // BASE
-    "base/base",
+    "base/_variables",
+    "base/_base",
+
+    // ANIMATIONS
+    "animations/_dancingshadow",
+    "animations/_glitch",
 
     // COMPONENTS
-    "components/titles",
-    "components/subheading",
-    "components/list",
-    "components/anchors",
-    "components/icons"
+    "components/_titles",
+    "components/_subheading",
+    "components/_list",
+    "components/_anchors",
+    "components/_icons"
     
 ;

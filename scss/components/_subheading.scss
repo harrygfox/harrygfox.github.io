@@ -1,0 +1,42 @@
+
+/* subheading block */
+
+.section__subheading {
+  margin: 0 -1rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg); /* transform causes */
+  
+  font-size: 1.5em;
+  line-height: 1;
+  font-family: $primary-font;
+
+  color: $purple; 
+}
+
+.section__subheading:before, .section__subheading:after {
+  display: block;
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+}
+.section__subheading:after {
+  color: $pink;
+  z-index: -2;
+}
+.section__subheading:before {
+  color: $blue;
+  z-index: -1;
+}
+.section__subheading:hover:before {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+          animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+.section__subheading:hover:after {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+          animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+}

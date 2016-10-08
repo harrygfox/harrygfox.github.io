@@ -1,16 +1,6 @@
-/*
-rgb(81, 55, 151);    purple
-rgb(187, 66, 106);   pink
-rgb(82, 136, 95);    green
-rgb(36, 109, 173);/* BLUE *
-
-*/
-
-@import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade';
-
 html {
   font-size: 16px;
-  font-family: 'Bungee', cursive;
+  font-family: $primary-font;
 }
 
 body {

@@ -9,11 +9,11 @@
 .titles__primary {
   margin: 0;
 
-  font-family: 'Bungee Shade', cursive;
+  font-family: $accent-font;
   font-weight: normal;
   font-size: 6em;
 
-  color: rgb(81, 55, 151);
+  color: $purple;
   text-shadow: rgb(36, 109, 173) -6px -4px 0px;
 }
 
@@ -22,7 +22,7 @@
   word-spacing: 1rem;
   letter-spacing: 2px;
   margin: 0.75rem auto;
-  color: rgb(187, 66, 106);  /* pink */
+  color: $pink;  /* pink */
   text-shadow: rgb(171, 32, 106) 0px -1px 6px;
 }
 

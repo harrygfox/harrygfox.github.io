@@ -4,7 +4,7 @@
   margin: 1.5rem 0 2rem;
   padding: 0;
   list-style-type: none;
-  color: rgb(81, 55, 151); /* Purple */
+  color: $purple; /* Purple */
 }
 @media (max-width: 768px) {
   .list {
@@ -15,11 +15,11 @@
 .list__item {
   display: inline;
 
-  background-color: rgb(221, 213, 209);
+  background-color: $white;
   padding: 0 0.1rem;
   word-spacing: 17px;
   letter-spacing: -0.5px;
 }
 .list__item:hover {
-  background-color: rgb(187, 66, 106);
+  background-color: $pink;
 }
