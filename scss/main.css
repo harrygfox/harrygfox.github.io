@@ -13,7 +13,7 @@ body {
   background: #2b2527; }
 
 .wrapper {
-  max-width: 32rem;
+  max-width: 52rem;
   margin: 7rem auto 3rem; }
 
 @-webkit-keyframes dancingshadow {
@@ -132,7 +132,7 @@ body {
 .titles {
   text-align: center;
   word-wrap: break-word;
-  margin-bottom: 5rem; }
+  margin-bottom: 8rem; }
 
 .titles__primary {
   margin: 0;
@@ -223,10 +223,11 @@ body {
     margin: 1rem -1.5rem 2rem; } }
 
 .list__item {
-  display: inline;
+  display: block;
+  margin-bottom: 0.25rem;
   background-color: #ddd5d1;
   padding: 0 0.1rem;
-  word-spacing: 17px;
+  word-spacing: 1rem;
   letter-spacing: -0.5px; }
 
 .list__item:hover {
