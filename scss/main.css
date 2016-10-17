@@ -3,7 +3,6 @@
 |                   Main.scss           |
 |_______________________________________|
 */
-@import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade';
 html {
   font-size: 16px;
   font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif; }
@@ -127,6 +126,43 @@ body {
   to {
     -webkit-transform: translate(0);
     transform: translate(0); } }
+
+.error {
+  max-width: 40rem;
+  margin: 5rem auto;
+  padding: 0 1rem;
+  text-align: center; }
+
+.error__title {
+  color: #f5deb3;
+  text-transform: uppercase;
+  font-size: 2.4rem; }
+  .error__title.error__title--accent {
+    display: block;
+    color: #545454;
+    text-transform: capitalize; }
+
+.error__redirect {
+  display: inline-block;
+  margin: 2rem auto;
+  padding: 1rem 2.5rem;
+  background-color: #545454;
+  border-radius: 3px;
+  line-height: 1.5;
+  color: #f5deb3;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  border: solid 1px #f5deb3; }
+  .error__redirect:visited {
+    color: #f5deb3; }
+  .error__redirect:hover {
+    padding: 1.025rem 2.625rem;
+    box-shadow: 0 10px 10px -7px rgba(0, 0, 0, 0.5); }
+  .error__redirect:active {
+    box-shadow: none;
+    padding: 1rem 2.5rem; }
 
 /* Titles block   */
 .titles {
