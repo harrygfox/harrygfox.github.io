@@ -3,6 +3,7 @@
 |                   Main.scss           |
 |_______________________________________|
 */
+@import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade';
 html {
   font-size: 16px;
   font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif; }
