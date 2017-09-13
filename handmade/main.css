@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  height: 100vh;
+  padding: 5rem;
+  background-color: rgb(86, 158, 193);
+}
+
+.button {
+  height: 126px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+.button:active {
+  background-position-y: 100%;
+}
