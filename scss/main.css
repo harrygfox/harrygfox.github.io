@@ -169,7 +169,7 @@ body {
 .titles {
   text-align: center;
   word-wrap: break-word;
-  margin-bottom: 8rem; }
+  margin-bottom: 6rem; }
 
 .titles__primary {
   margin: 0;
@@ -301,12 +301,14 @@ span {
 .social-icons__icon {
   display: table-cell; }
 
-.social-icons__img-link {
+.social-icons__link {
   display: block;
   margin: auto;
-  max-width: 50px; }
+  text-decoration: none; }
 
 .social-icons__img {
+  display: block;
+  margin: auto;
   border-radius: 50%;
   max-width: 50px; }
 
@@ -316,7 +318,7 @@ span {
 
 .social-icons__label {
   font-size: 1.5em;
-  margin: -0.5rem 0.5rem;
+  margin: -0rem 0.5rem;
   color: #bb426a;
   text-shadow: #ab206a 0px -1px 6px;
   display: block; }

@@ -12,13 +12,15 @@
   display: table-cell;
 }
 
-.social-icons__img-link {
+.social-icons__link {
   display: block;
   margin: auto;
-  max-width: 50px;
+  text-decoration: none;
 }
 
 .social-icons__img {
+  display: block;
+  margin: auto;
   border-radius: 50%;
   max-width: 50px;
 }
@@ -30,7 +32,7 @@
 
 .social-icons__label {
   font-size: 1.5em;
-  margin: -0.5rem 0.5rem;
+  margin: -0rem 0.5rem;
   color: rgb(187, 66, 106);
   text-shadow: rgb(171, 32, 106) 0px -1px 6px;
   display: block;
