@@ -255,22 +255,22 @@ body {
   color: #513797;
   /* Purple */ }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .list {
     margin: 1rem -1.5rem 2rem; } }
 
 .list__item {
   display: block;
-  margin-bottom: 0.25rem;
-  background-color: #ddd5d1;
-  padding: 0 0.1rem;
-  word-spacing: 1rem;
-  letter-spacing: -0.5px; }
-
-.list__item:hover {
-  background-color: #bb426a; }
+  margin-bottom: 0.25rem; }
 
 /* anchor block */
+.anchor {
+  display: block;
+  background-color: #ddd5d1;
+  letter-spacing: 3px;
+  padding: 0 0.1rem;
+  word-spacing: 1rem; }
+
 .anchor:link {
   color: #513797; }
 
@@ -279,13 +279,10 @@ body {
   text-decoration: line-through; }
 
 .anchor:hover {
-  color: #efeeee; }
+  color: #bb426a; }
 
 .anchor:active {
-  text-decoration: none;
-  font-size: 0.8em;
-  letter-spacing: 3px;
-  word-spacing: 8px; }
+  text-decoration: none; }
 
 span {
   color: #444; }

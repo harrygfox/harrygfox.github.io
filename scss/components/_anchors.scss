@@ -1,22 +1,23 @@
 /* anchor block */
 .anchor {
-
+  display: block;
+  background-color: $white;
+  letter-spacing: 3px;
+  padding: 0 0.1rem;
+  word-spacing: 1rem;
 }
 .anchor:link {
-  color: rgb(81, 55, 151);
+  color: $purple;
 }
 .anchor:visited {
-  color: rgb(81, 55, 151);
+  color: $purple;
   text-decoration: line-through;
 }
 .anchor:hover {
-  color: rgb(239, 238, 238);
+  color: $pink;
 }
 .anchor:active {
   text-decoration: none;
-  font-size: 0.8em;
-  letter-spacing: 3px;
-  word-spacing: 8px;
 }
 
 span {
