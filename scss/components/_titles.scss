@@ -26,27 +26,8 @@
   text-shadow: rgb(171, 32, 106) 0px -1px 6px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .titles {
     font-size: 0.7rem;
-  }
-}
-
-.section {
-  margin-bottom: 4rem;
-}
-@media (max-width: 768px) {
-  .section {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-}
-
-.section--bigfont {
-  font-size: 1.75rem;
-}
-@media (max-width: 768px) {
-  .section--bigfont {
-    font-size: 1.25rem;
   }
 }

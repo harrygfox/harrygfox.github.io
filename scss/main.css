@@ -6,7 +6,12 @@
 @import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade';
 html {
   font-size: 16px;
-  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif; }
+  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
+  border: solid 1.25rem #bb426a; }
+
+@media (max-width: 48rem) {
+  html {
+    border: none; } }
 
 body {
   margin: 0;
@@ -165,104 +170,6 @@ body {
     box-shadow: none;
     padding: 1rem 2.5rem; }
 
-/* Titles block   */
-.titles {
-  text-align: center;
-  word-wrap: break-word;
-  margin-bottom: 6rem; }
-
-.titles__primary {
-  margin: 0;
-  font-family: "Bungee Shade", Helvetica, Ariel, monospace, sans-serif;
-  font-weight: normal;
-  font-size: 6em;
-  color: #513797;
-  text-shadow: #246dad -6px -4px 0px; }
-
-.titles__secondary {
-  font-size: 3.5em;
-  word-spacing: 1rem;
-  letter-spacing: 2px;
-  margin: 0.75rem auto;
-  color: #bb426a;
-  /* pink */
-  text-shadow: #ab206a 0px -1px 6px; }
-
-@media (max-width: 768px) {
-  .titles {
-    font-size: 0.7rem; } }
-
-.section {
-  margin-bottom: 4rem; }
-
-@media (max-width: 768px) {
-  .section {
-    margin-left: 15%;
-    margin-right: 15%; } }
-
-.section--bigfont {
-  font-size: 1.75rem; }
-
-@media (max-width: 768px) {
-  .section--bigfont {
-    font-size: 1.25rem; } }
-
-/* subheading block */
-.section__subheading {
-  margin: 0 -1rem;
-  -ms-transform: rotate(0deg);
-  /* IE 9 */
-  -webkit-transform: rotate(0deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(0deg);
-  /* transform causes */
-  font-size: 1.5em;
-  line-height: 1;
-  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
-  color: #513797; }
-
-.section__subheading:before, .section__subheading:after {
-  display: block;
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .8; }
-
-.section__subheading:after {
-  color: #bb426a;
-  z-index: -2; }
-
-.section__subheading:before {
-  color: #246dad;
-  z-index: -1; }
-
-.section__subheading:hover:before {
-  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite; }
-
-.section__subheading:hover:after {
-  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
-  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite; }
-
-/* list block*/
-.list {
-  margin: 1.5rem 0 2rem;
-  padding: 0;
-  list-style-type: none;
-  color: #513797;
-  /* Purple */ }
-
-@media (max-width: 48rem) {
-  .list {
-    margin: 1rem -1.5rem 2rem; } }
-
-.list__item {
-  display: block;
-  margin-bottom: 0.25rem; }
-
 /* anchor block */
 .anchor {
   display: block;
@@ -309,7 +216,7 @@ span {
   border-radius: 50%;
   max-width: 50px; }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .social-icons__img {
     max-width: 40px; } }
 
@@ -319,3 +226,158 @@ span {
   color: #bb426a;
   text-shadow: #ab206a 0px -1px 6px;
   display: block; }
+
+/* list block*/
+.list {
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style-type: none;
+  color: #513797;
+  /* Purple */ }
+
+@media (max-width: 48rem) {
+  .list {
+    margin: 1rem -1.5rem 2rem; } }
+
+.list__item {
+  display: block;
+  margin-bottom: 0.25rem; }
+
+.section {
+  margin-bottom: 4rem;
+  padding: 0 1.5rem; }
+
+@media (max-width: 48rem) {
+  .section {
+    margin-left: 15%;
+    margin-right: 15%; } }
+
+.section--bigfont {
+  font-size: 1.75rem; }
+
+@media (max-width: 48rem) {
+  .section--bigfont {
+    font-size: 1.25rem; } }
+
+/* subheading block */
+.section__subheading {
+  margin: 3rem 0 1rem;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  /* transform causes */
+  font-size: 1.5em;
+  line-height: 1;
+  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
+  color: #513797; }
+
+@media (min-width: 60rem) {
+  .section__subheading {
+    margin: 0 -1rem; } }
+
+.section__subheading:before, .section__subheading:after {
+  display: block;
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8; }
+
+.section__subheading:after {
+  color: #bb426a;
+  z-index: -2; }
+
+.section__subheading:before {
+  color: #246dad;
+  z-index: -1; }
+
+.section__subheading:hover:before {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite; }
+
+.section__subheading:hover:after {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite; }
+
+/* Titles block   */
+.titles {
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 6rem; }
+
+.titles__primary {
+  margin: 0;
+  font-family: "Bungee Shade", Helvetica, Ariel, monospace, sans-serif;
+  font-weight: normal;
+  font-size: 6em;
+  color: #513797;
+  text-shadow: #246dad -6px -4px 0px; }
+
+.titles__secondary {
+  font-size: 3.5em;
+  word-spacing: 1rem;
+  letter-spacing: 2px;
+  margin: 0.75rem auto;
+  color: #bb426a;
+  /* pink */
+  text-shadow: #ab206a 0px -1px 6px; }
+
+@media (max-width: 48rem) {
+  .titles {
+    font-size: 0.7rem; } }
+
+.tooltip {
+  cursor: help;
+  /* Will either add a pointer with a question mark or just a question mark */
+  position: relative;
+  /* Relative to the span elements */ }
+
+.tooltip::before,
+.tooltip::after {
+  position: absolute;
+  left: 50%;
+  display: block;
+  opacity: 0;
+  z-index: -999;
+  /* This ensures that the tooltips are not visible without user interaction */ }
+
+.tooltip:hover::before,
+.tooltip:focus::before,
+.tooltip:hover::after,
+.tooltip:focus::after {
+  /* Select bother hover and focus to accomodate users without a keyboard */
+  opacity: 1;
+  z-index: 999; }
+
+/* --- Creates a triangle shape with borders ---
+        https://css-tricks.com/animation-css-triangles-work/ */
+.tooltip::before {
+  content: "";
+  border-style: solid;
+  border-width: 1em 0.75em 0 0.75em;
+  /* Creates a triangle with the point facing down */
+  /* The thinner the left and right borders the sharper the triangle */
+  border-color: #bb426a transparent transparent transparent;
+  bottom: 100%;
+  /* Bump it up above the span element */
+  margin-left: -0.5em;
+  /* Center the arrow, given that it has been moved left 50% */ }
+
+.tooltip:after {
+  content: attr(data-tip);
+  /* This is where the magic happens. See for more details:
+            http://tympanus.net/codrops/css_reference/attr/ */
+  background-color: #bb426a;
+  border-radius: 0.25em;
+  bottom: 170%;
+  width: 13.5em;
+  padding: 1em 0.5em;
+  margin-left: -6.75em;
+  /* margin-left is negative and half the width to center the bubble */
+  color: white;
+  text-align: center;
+  font-size: 0.75em; }

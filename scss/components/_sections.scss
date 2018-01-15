@@ -1,0 +1,19 @@
+.section {
+  margin-bottom: 4rem;
+  padding: 0 1.5rem;
+}
+@media (max-width: 48rem) {
+  .section {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+.section--bigfont {
+  font-size: 1.75rem;
+}
+@media (max-width: 48rem) {
+  .section--bigfont {
+    font-size: 1.25rem;
+  }
+}
