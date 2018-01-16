@@ -1,23 +1,30 @@
 /* anchor block */
 .anchor {
   display: block;
-  background-color: $white;
-  letter-spacing: 3px;
-  padding: 0 0.1rem;
-  word-spacing: 1rem;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  word-spacing: 0.25rem;
 }
 .anchor:link {
-  color: $purple;
+  color: $white;
+  background-color: $pink;
+  text-decoration: none;
 }
 .anchor:visited {
-  color: $purple;
-  text-decoration: line-through;
+  color: $white;
+  background-color: $purple;
 }
 .anchor:hover {
-  color: $pink;
+  // color: $white;
+  // background-color: $pink;
+  color: $purple;
+  background-color: $white;
+  text-decoration: underline;
 }
 .anchor:active {
-  text-decoration: none;
+  text-decoration: line-through;
+  color: $pink;
+  background-color: $white;
 }
 
 span {

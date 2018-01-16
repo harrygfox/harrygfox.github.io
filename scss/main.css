@@ -7,7 +7,7 @@
 html {
   font-size: 16px;
   font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
-  border: solid 1.25rem #bb426a; }
+  border: solid 1.25rem #ddd5d1; }
 
 @media (max-width: 48rem) {
   html {
@@ -19,7 +19,7 @@ body {
 
 .wrapper {
   max-width: 52rem;
-  margin: 7rem auto 3rem; }
+  margin: 7rem auto 10rem; }
 
 @-webkit-keyframes dancingshadow {
   0% {
@@ -173,23 +173,28 @@ body {
 /* anchor block */
 .anchor {
   display: block;
-  background-color: #ddd5d1;
-  letter-spacing: 3px;
-  padding: 0 0.1rem;
-  word-spacing: 1rem; }
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  word-spacing: 0.25rem; }
 
 .anchor:link {
-  color: #513797; }
+  color: #ddd5d1;
+  background-color: #bb426a;
+  text-decoration: none; }
 
 .anchor:visited {
-  color: #513797;
-  text-decoration: line-through; }
+  color: #ddd5d1;
+  background-color: #513797; }
 
 .anchor:hover {
-  color: #bb426a; }
+  color: #513797;
+  background-color: #ddd5d1;
+  text-decoration: underline; }
 
 .anchor:active {
-  text-decoration: none; }
+  text-decoration: line-through;
+  color: #bb426a;
+  background-color: #ddd5d1; }
 
 span {
   color: #444; }
@@ -222,10 +227,22 @@ span {
 
 .social-icons__label {
   font-size: 1.5em;
+  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
   margin: -0rem 0.5rem;
   color: #bb426a;
   text-shadow: #ab206a 0px -1px 6px;
   display: block; }
+
+.label__wrapper {
+  margin: 0rem 0rem 1rem; }
+
+.label {
+  font-size: 1rem;
+  background-color: #ddd5d1;
+  color: #2b2527;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  cursor: default; }
 
 /* list block*/
 .list {
@@ -309,6 +326,10 @@ span {
   word-wrap: break-word;
   margin-bottom: 6rem; }
 
+@media (max-width: 48rem) {
+  .titles {
+    font-size: 0.7rem; } }
+
 .titles__primary {
   margin: 0;
   font-family: "Bungee Shade", Helvetica, Ariel, monospace, sans-serif;
@@ -318,17 +339,13 @@ span {
   text-shadow: #246dad -6px -4px 0px; }
 
 .titles__secondary {
+  font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
   font-size: 3.5em;
   word-spacing: 1rem;
   letter-spacing: 2px;
   margin: 0.75rem auto;
   color: #bb426a;
-  /* pink */
   text-shadow: #ab206a 0px -1px 6px; }
-
-@media (max-width: 48rem) {
-  .titles {
-    font-size: 0.7rem; } }
 
 .tooltip {
   cursor: help;
@@ -373,11 +390,11 @@ span {
             http://tympanus.net/codrops/css_reference/attr/ */
   background-color: #bb426a;
   border-radius: 0.25em;
-  bottom: 170%;
+  bottom: 150%;
   width: 13.5em;
   padding: 1em 0.5em;
   margin-left: -6.75em;
   /* margin-left is negative and half the width to center the bubble */
   color: white;
   text-align: center;
-  font-size: 0.75em; }
+  font-size: 1em; }

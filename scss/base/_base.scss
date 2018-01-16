@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   font-family: $primary-font;
-  border: solid 1.25rem $pink;
+  border: solid 1.25rem $white;
 }
 
 @media (max-width: 48rem) {
@@ -13,10 +13,10 @@ html {
 
 body {
   margin: 0;
-  background: rgb(43, 37, 39);
+  background: $black;
 }
 
 .wrapper {
   max-width: 52rem;
-  margin: 7rem auto 3rem;
+  margin: 7rem auto 10rem;
 }
