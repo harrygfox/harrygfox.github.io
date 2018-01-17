@@ -6,7 +6,7 @@
   list-style-type: none;
   color: $purple; /* Purple */
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .list {
     margin: 1rem -1.5rem 2rem;
   }
@@ -15,12 +15,4 @@
 .list__item {
   display: block;
   margin-bottom: 0.25rem;
-
-  background-color: $white;
-  padding: 0 0.1rem;
-  word-spacing: 1rem;
-  letter-spacing: -0.5px;
-}
-.list__item:hover {
-  background-color: $pink;
 }
