@@ -3,7 +3,7 @@
 .titles {
   text-align: center;
   word-wrap: break-word;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 48rem) {
@@ -32,6 +32,6 @@
 
       margin: 0.75rem auto;
 
-      color: $pink;  
+      color: $pink;
       text-shadow: rgb(171, 32, 106) 0px -1px 6px;
     }
