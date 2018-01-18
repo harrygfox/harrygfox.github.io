@@ -175,7 +175,8 @@ body {
   display: block;
   letter-spacing: 1px;
   padding: 0.5rem;
-  word-spacing: 0.25rem; }
+  word-spacing: 0.25rem;
+  box-shadow: 0 5px 25px -7px rgba(0, 0, 0, 0.9); }
 
 .anchor:link {
   color: #ddd5d1;
@@ -253,7 +254,7 @@ span {
   font-size: 1rem;
   background-color: #ddd5d1;
   color: #2b2527;
-  padding: 0.25rem 0.35rem;
+  padding: 0.35rem 1rem;
   border-radius: 0.25rem;
   cursor: default; }
 
