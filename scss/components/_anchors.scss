@@ -15,8 +15,6 @@
   background-color: $purple;
 }
 .anchor:hover {
-  // color: $white;
-  // background-color: $pink;
   color: $purple;
   background-color: $white;
   text-decoration: underline;
@@ -26,6 +24,19 @@
   color: $pink;
   background-color: $white;
 }
+    .anchor--floating {
+      text-align: center;
+      display: inline-block;
+      font-size: 1.25rem;
+      letter-spacing: 0.5px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .anchor--floating:link,
+    .anchor--floating:visited {
+      background-color: $white;
+      color: $blue;
+    }
 
 span {
   color: #444;
