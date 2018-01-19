@@ -238,7 +238,7 @@ span {
 
 @media (max-width: 48rem) {
   .social-icons__img {
-    max-width: 40px; } }
+    max-width: 2.5rem; } }
 
 .social-icons__label {
   font-size: 1.5em;
@@ -294,6 +294,10 @@ span {
 .label__wrapper {
   margin: 0rem 0rem 1rem; }
 
+@media (max-width: 48rem) {
+  .label__wrapper {
+    margin: 0.5rem 0rem 1rem; } }
+
 .label {
   font-size: 1rem;
   background-color: #ddd5d1;
@@ -301,6 +305,11 @@ span {
   padding: 0.35rem 1rem;
   border-radius: 0.25rem;
   cursor: default; }
+
+@media (max-width: 48rem) {
+  .label {
+    display: table;
+    margin: 0.5rem 0; } }
 
 .label--floating {
   margin: .1rem;
