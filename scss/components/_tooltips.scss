@@ -33,7 +33,7 @@
     border-width: 1em 0.75em 0 0.75em;
         /* Creates a triangle with the point facing down */
         /* The thinner the left and right borders the sharper the triangle */
-    border-color: $pink transparent transparent transparent;
+    border-color: $white transparent transparent transparent;
     bottom: 100%;
         /* Bump it up above the span element */
     margin-left: -0.5em;
@@ -44,14 +44,15 @@
     content: attr(data-tip);
         /* This is where the magic happens. See for more details:
             http://tympanus.net/codrops/css_reference/attr/ */
-    background-color: $pink;
+    background-color: $white;
     border-radius: 0.25em;
-    bottom: 150%;
+    bottom: 140%;
     width: 13.5em;
     padding: 1em 0.5em;
     margin-left: -6.75em;
         /* margin-left is negative and half the width to center the bubble */
-    color: white;
+    color: $black;
     text-align: center;
     font-size: 1em;
+    box-shadow: 0px -3px 23px -5px rgba(221, 213, 210, 0.6); /* $white at 60% */
 }
