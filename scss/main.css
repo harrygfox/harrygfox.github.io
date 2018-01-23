@@ -236,7 +236,7 @@ body {
 
 .anchor:link {
   color: #ddd5d1;
-  background-color: #bb426a;
+  background-color: #513797;
   text-decoration: none; }
 
 .anchor:visited {
@@ -347,7 +347,7 @@ span {
 
 /* '' */
 .label__wrapper {
-  margin: 0rem 0rem 1rem; }
+  margin: 0rem 0rem 1.25rem; }
 
 @media (max-width: 48rem) {
   .label__wrapper {
@@ -419,7 +419,7 @@ span {
   font-size: 1.5em;
   line-height: 1;
   font-family: "Bungee", Helvetica, Ariel, monospace, sans-serif;
-  color: #513797; }
+  color: #bb426a; }
 
 @media (min-width: 60rem) {
   .section__subheading {
@@ -509,7 +509,7 @@ span {
   border-width: 1em 0.75em 0 0.75em;
   /* Creates a triangle with the point facing down */
   /* The thinner the left and right borders the sharper the triangle */
-  border-color: #bb426a transparent transparent transparent;
+  border-color: #ddd5d1 transparent transparent transparent;
   bottom: 100%;
   /* Bump it up above the span element */
   margin-left: -0.5em;
@@ -519,13 +519,15 @@ span {
   content: attr(data-tip);
   /* This is where the magic happens. See for more details:
             http://tympanus.net/codrops/css_reference/attr/ */
-  background-color: #bb426a;
+  background-color: #ddd5d1;
   border-radius: 0.25em;
-  bottom: 150%;
+  bottom: 140%;
   width: 13.5em;
   padding: 1em 0.5em;
   margin-left: -6.75em;
   /* margin-left is negative and half the width to center the bubble */
-  color: white;
+  color: #2b2527;
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em;
+  box-shadow: 0px -3px 23px -5px rgba(221, 213, 210, 0.6);
+  /* $white at 60% */ }
