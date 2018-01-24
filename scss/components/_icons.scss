@@ -18,27 +18,6 @@
   text-decoration: none;
 }
 
-.social-icons__img {
-  display: block;
-  margin: auto;
-  border-radius: 50%;
-  max-width: 50px;
-}
-@media (max-width: 48rem) {
-  .social-icons__img {
-    max-width: 2.5rem;
-  }
-}
-
-.social-icons__label {
-  font-size: 1.5em;
-  font-family: $primary-font;
-  margin: -0rem 0.5rem;
-  color: rgb(187, 66, 106);
-  text-shadow: rgb(171, 32, 106) 0px -1px 6px;
-  display: block;
-}
-
 // FONTELLO Icon styles
 
 @font-face {
@@ -80,7 +59,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Uncomment for 3D effect */
-  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+  text-shadow: 0px 1px 5px $blackShadow;
 }
 
 .icon-twitter:before { content: '\f099'; } /* '' */
