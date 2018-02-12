@@ -267,6 +267,10 @@ body {
   background-color: #ddd5d1;
   color: #246dad; }
 
+.anchor--pdf:link,
+.anchor--pdf:visited {
+  color: #f46036; }
+
 span {
   color: #444; }
 
@@ -351,8 +355,14 @@ span {
 
 .label--floating {
   margin: .1rem;
-  display: inline-block;
+  display: inline-block; }
+
+.label--doc {
   background-color: #246dad;
+  color: #ddd5d1; }
+
+.label--pdf {
+  background-color: #f46036;
   color: #ddd5d1; }
 
 /* list block*/

@@ -39,6 +39,10 @@
       background-color: $white;
       color: $blue;
     }
+    .anchor--pdf:link,
+    .anchor--pdf:visited {
+      color: $orange;
+    }
 
 span {
   color: #444;

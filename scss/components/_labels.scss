@@ -24,6 +24,12 @@
     .label--floating {
       margin: .1rem;
       display: inline-block;
+    }
+    .label--doc {
       background-color: $blue;
+      color: $white;
+    }
+    .label--pdf {
+      background-color: $orange;
       color: $white;
     }
