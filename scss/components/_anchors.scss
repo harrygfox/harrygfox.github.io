@@ -6,6 +6,7 @@
   word-spacing: 0.25rem;
   box-shadow: 0 5px 25px -7px $blackShadow;
   transition: all 0.1s;
+  position: relative;
 }
 .anchor, .anchor:link {
   color: $white;
@@ -34,12 +35,8 @@
       padding-left: 2rem;
       padding-right: 2rem;
     }
-    .anchor--floating:link,
-    .anchor--floating:visited {
-      background-color: $white;
-      color: $blue;
-    }
     .anchor--pdf:link,
     .anchor--pdf:visited {
       color: $orange;
+      background-color: $white;
     }

@@ -3,6 +3,7 @@
 .img {
   display: block;
   max-width: 100%;
+  margin: auto;
 }
 .img--hero {
   border-radius: 46%;
@@ -22,7 +23,7 @@
   }
 }
 
-  .img__link {
-    text-decoration: none;
-    display: block;
-  }
+    .img__link {
+      text-decoration: none;
+      display: block;
+    }

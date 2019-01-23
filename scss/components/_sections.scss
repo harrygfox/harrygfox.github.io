@@ -25,18 +25,44 @@
   margin: 12rem auto 6rem;
   position: relative;
 }
+  .section--after-break::before {
+    content: "";
+    width: 200%;
+    height: 1.25rem;
+    background-color: $pink;
+    display: block;
+    left: -100%;
+    position: absolute;
+    top: -0.25rem;
+  }
+  @media (max-width: $mid) {
     .section--after-break::before {
-      content: "";
-      width: 200%;
-      height: 1.25rem;
-      background-color: $pink;
-      display: block;
-      left: -100%;
-      position: absolute;
-      top: -0.25rem;
+      display: none;
     }
-    @media (max-width: $mid) {
-      .section--after-break::before {
-        display: none;
+  }
+
+.section--project {
+  max-width: 36rem;
+  margin: auto;
+}
+
+    .section__project-text {
+      font-size: 1.25rem;
+      color: $white;
+      line-height: 2;
+      font-weight: 400;
+      max-width: 36rem;
+      margin: 2rem auto;
+    }
+    @media (max-width: $small) {
+      .section__project-text {
+        font-size: 1rem;
+        text-align: left;
       }
+    }
+    .section__project-text--caption {
+      font-style: italic;
+      margin-top: 0.25rem;
+      max-width: 100%;
+      text-align: center;
     }

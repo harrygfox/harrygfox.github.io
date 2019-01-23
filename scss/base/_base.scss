@@ -9,7 +9,6 @@ html {
   html {
     border: none;
   }
-
 }
 
 body {
@@ -25,6 +24,7 @@ body {
 @media (min-width: $x-large) {
   .wrapper {
     max-width: 72rem;
+    margin: 12rem auto 10rem;
   }
 }
 
@@ -32,4 +32,8 @@ body {
   .wrapper {
     padding: 0 1rem;
   }
+}
+
+.wrapper--project {
+    margin-top: 4rem;
 }
