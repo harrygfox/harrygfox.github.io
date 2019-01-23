@@ -7,14 +7,14 @@
   box-shadow: 0 5px 25px -7px $blackShadow;
   transition: all 0.1s;
 }
-.anchor:link {
+.anchor, .anchor:link {
   color: $white;
-  background-color: $purple;
+  background-color: $pink;
   text-decoration: none;
 }
 .anchor:visited {
   color: $white;
-  background-color: $purple;
+  background-color: $pink;
 }
 .anchor:hover {
   color: $purple;
@@ -43,7 +43,3 @@
     .anchor--pdf:visited {
       color: $orange;
     }
-
-span {
-  color: #444;
-}

@@ -6,15 +6,10 @@
   list-style-type: none;
   color: $purple; /* Purple */
 }
-@media (max-width: 48rem) {
-  .list {
-    margin: 1rem -1.5rem 2rem;
-  }
-}
 
 .list__item {
   display: block;
-  margin-bottom: 0.25rem;
+  margin-bottom: 4rem;
 }
     .list__item--centered {
       text-align: center;

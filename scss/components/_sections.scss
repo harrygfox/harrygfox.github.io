@@ -2,18 +2,29 @@
   margin-bottom: 4rem;
   padding: 0 1.5rem;
 }
-@media (max-width: 48rem) {
+@media (max-width: $mid) {
   .section {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (max-width: $small) {
+  .section {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 0;
   }
 }
 
 .section--bigfont {
   font-size: 1.75rem;
 }
-@media (max-width: 48rem) {
+@media (max-width: $mid) {
   .section--bigfont {
     font-size: 1.25rem;
   }
+}
+
+.section--centered {
+  text-align: center;
 }

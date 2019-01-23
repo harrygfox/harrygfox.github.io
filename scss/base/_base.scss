@@ -1,7 +1,8 @@
 html {
   font-size: 16px;
   font-family: $primary-font;
-  border: solid 1.25rem $pink;
+  border-left: solid 1.25rem $pink;
+  border-right: solid 1.25rem $pink;
 }
 
 @media (max-width: 48rem) {
@@ -19,4 +20,9 @@ body {
 .wrapper {
   max-width: 52rem;
   margin: 7rem auto 10rem;
+}
+@media (max-width: $small) {
+  .wrapper {
+    padding: 0 1rem;
+  }
 }

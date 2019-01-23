@@ -1,0 +1,21 @@
+/* Images block */
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+.img--hero {
+  box-shadow: 0px 25px 50px -15px rgba(0,0,0,0.9);
+  border-radius: 46%;
+  max-width: 50%;
+  margin: auto;
+}
+@media (max-width: $small) {
+  .img--hero{
+    max-width: 65%;
+  }
+}
+
+  .img__link {
+    text-decoration: none;
+  }
