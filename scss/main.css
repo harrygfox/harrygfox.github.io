@@ -78,6 +78,10 @@ body {
   max-width: 52rem;
   margin: 7rem auto 10rem; }
 
+@media (min-width: 96rem) {
+  .wrapper {
+    max-width: 72rem; } }
+
 @media (max-width: 36rem) {
   .wrapper {
     padding: 0 1rem; } }
@@ -250,7 +254,7 @@ body {
   background-color: #bb426a; }
 
 .anchor:hover {
-  color: #513797;
+  color: #bb426a;
   background-color: #ddd5d1;
   text-decoration: underline; }
 
@@ -277,6 +281,15 @@ body {
   color: #f46036; }
 
 /* footer block */
+.footer {
+  text-align: center;
+  margin-top: 10rem; }
+
+.footer__link {
+  color: #ddd5d1;
+  font-size: 1rem;
+  line-height: 1.2; }
+
 /* SOCIAL icons block */
 .social-icons {
   display: table;
@@ -342,18 +355,23 @@ body {
   max-width: 100%; }
 
 .img--hero {
-  box-shadow: 0px 25px 50px -15px rgba(0, 0, 0, 0.9);
   border-radius: 46%;
   max-width: 50%;
   margin: auto;
+  -webkit-filter: opacity(40%);
   filter: opacity(40%); }
 
 @media (max-width: 36rem) {
   .img--hero {
     max-width: 65%; } }
 
+@media (min-width: 96rem) {
+  .img--hero {
+    max-width: 20rem; } }
+
 .img__link {
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
 
 .label__wrapper {
   margin: 0rem 0rem 1.25rem; }
@@ -389,19 +407,31 @@ body {
 
 /* list block*/
 .list {
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem auto 2rem;
   padding: 0;
   list-style-type: none;
   color: #513797;
   /* Purple */ }
 
+@media (min-width: 96rem) {
+  .list {
+    max-width: 48rem; } }
+
 .list__item {
   display: block;
   margin-bottom: 4rem;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  -webkit-filter: opacity(80%);
+  filter: opacity(80%); }
 
 .list__item--centered {
   text-align: center; }
+
+.list__item:hover {
+  box-shadow: 0 25px 40px -15px #000000;
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%); }
 
 .section {
   margin-bottom: 4rem;
@@ -410,7 +440,8 @@ body {
 @media (max-width: 48rem) {
   .section {
     margin-left: 2rem;
-    margin-right: 2rem; } }
+    margin-right: 2rem;
+    text-align: center; } }
 
 @media (max-width: 36rem) {
   .section {
@@ -428,12 +459,16 @@ body {
 .section--after-break::before {
   content: "";
   width: 200%;
-  height: 1rem;
+  height: 1.25rem;
   background-color: #bb426a;
   display: block;
   left: -100%;
   position: absolute;
-  top: -0.125rem; }
+  top: -0.25rem; }
+
+@media (max-width: 48rem) {
+  .section--after-break::before {
+    display: none; } }
 
 /* subheading block */
 .section__subheading {
@@ -487,10 +522,6 @@ body {
 @media (max-width: 48rem) {
   .titles {
     font-size: 0.7rem; } }
-
-@media (max-width: 36rem) {
-  .titles {
-    text-align: center; } }
 
 .titles__primary {
   margin: 0;

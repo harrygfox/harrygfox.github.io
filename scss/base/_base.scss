@@ -21,6 +21,13 @@ body {
   max-width: 52rem;
   margin: 7rem auto 10rem;
 }
+
+@media (min-width: $x-large) {
+  .wrapper {
+    max-width: 72rem;
+  }
+}
+
 @media (max-width: $small) {
   .wrapper {
     padding: 0 1rem;

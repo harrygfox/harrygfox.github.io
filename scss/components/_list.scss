@@ -1,17 +1,30 @@
 /* list block*/
 
 .list {
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem auto 2rem;
   padding: 0;
   list-style-type: none;
   color: $purple; /* Purple */
+}
+@media (min-width: $x-large) {
+  .list {
+    max-width: 48rem;
+  }
 }
 
 .list__item {
   display: block;
   margin-bottom: 4rem;
   font-size: 1.5rem;
+  transition: all 0.2s;
+  -webkit-filter: opacity(80%);
+  filter: opacity(80%);
 }
     .list__item--centered {
       text-align: center;
     }
+.list__item:hover {
+  box-shadow: 0 25px 40px -15px #000000;
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
