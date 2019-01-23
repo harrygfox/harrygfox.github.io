@@ -1,12 +1,11 @@
 /* Titles block   */
 
 .titles {
-  text-align: center;
   word-wrap: break-word;
   margin-bottom: 3rem;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: $mid) {
   .titles {
     font-size: 0.7rem;
   }
@@ -22,6 +21,13 @@
       color: $purple;
       text-shadow: rgb(36, 109, 173) -6px -4px 0px;
     }
+    @media (max-width: $mid) {
+      .titles__primary {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+      }
+    }
+
 
     .titles__secondary {
       font-family: $primary-font;
@@ -33,5 +39,18 @@
       margin: 0.75rem auto;
 
       color: $pink;
-      text-shadow: rgb(171, 32, 106) 0px -1px 6px;
+    }
+
+    @media (max-width: $mid) {
+      .titles__secondary {
+        word-spacing: initial;
+        margin: 0;
+      }
+    }
+
+
+    .titles__project {
+      font-size: 3em;
+      font-weight: 500;
+      color: $pink;
     }

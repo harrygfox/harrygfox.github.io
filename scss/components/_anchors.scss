@@ -6,18 +6,19 @@
   word-spacing: 0.25rem;
   box-shadow: 0 5px 25px -7px $blackShadow;
   transition: all 0.1s;
+  position: relative;
 }
-.anchor:link {
+.anchor, .anchor:link {
   color: $white;
-  background-color: $purple;
+  background-color: $pink;
   text-decoration: none;
 }
 .anchor:visited {
   color: $white;
-  background-color: $purple;
+  background-color: $pink;
 }
 .anchor:hover {
-  color: $purple;
+  color: $pink;
   background-color: $white;
   text-decoration: underline;
 }
@@ -26,24 +27,22 @@
   color: $pink;
   background-color: $white;
 }
-    .anchor--floating {
-      text-align: center;
-      display: inline-block;
-      font-size: 1.25rem;
-      letter-spacing: 0.5px;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-    .anchor--floating:link,
-    .anchor--floating:visited {
-      background-color: $white;
-      color: $blue;
-    }
-    .anchor--pdf:link,
-    .anchor--pdf:visited {
-      color: $orange;
-    }
 
-span {
-  color: #444;
+.anchor--floating {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.anchor--pdf:link,
+.anchor--pdf:visited {
+  color: $orange;
+  background-color: $white;
+}
+.anchor--mega {
+  border-radius: 2rem;
+  line-height: 3;
+  margin: 2rem auto;
 }
