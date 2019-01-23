@@ -27,16 +27,22 @@
   color: $pink;
   background-color: $white;
 }
-    .anchor--floating {
-      text-align: center;
-      display: inline-block;
-      font-size: 1.25rem;
-      letter-spacing: 0.5px;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-    .anchor--pdf:link,
-    .anchor--pdf:visited {
-      color: $orange;
-      background-color: $white;
-    }
+
+.anchor--floating {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.anchor--pdf:link,
+.anchor--pdf:visited {
+  color: $orange;
+  background-color: $white;
+}
+.anchor--mega {
+  border-radius: 2rem;
+  line-height: 3;
+  margin: 2rem auto;
+}

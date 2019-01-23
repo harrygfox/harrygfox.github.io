@@ -41,18 +41,19 @@
     }
   }
 
+// -----------
+
 .section--project {
   max-width: 36rem;
   margin: auto;
 }
-
     .section__project-text {
       font-size: 1.25rem;
       color: $white;
       line-height: 2;
       font-weight: 400;
       max-width: 36rem;
-      margin: 2rem auto;
+      margin: 2.5rem auto;
     }
     @media (max-width: $small) {
       .section__project-text {
@@ -62,10 +63,19 @@
     }
     .section__project-text--caption {
       font-style: italic;
+      font-size: 1.125rem;
       margin-top: 0.25rem;
+      margin-bottom: 4rem;
       max-width: 100%;
       text-align: center;
     }
     .section__project-text--link {
       color: inherit;
+    }
+    .section__project-text--quote {
+      max-width: 32rem;
+      font-size: 1.5rem;
+      line-height: 2.5;
+      -webkit-filter: opacity(80%);
+      filter: opacity(80%);
     }

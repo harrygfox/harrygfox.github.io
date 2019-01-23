@@ -281,6 +281,11 @@ body {
   color: #f46036;
   background-color: #ddd5d1; }
 
+.anchor--mega {
+  border-radius: 2rem;
+  line-height: 3;
+  margin: 2rem auto; }
+
 /* footer block */
 .footer {
   text-align: center;
@@ -482,7 +487,7 @@ body {
   line-height: 2;
   font-weight: 400;
   max-width: 36rem;
-  margin: 2rem auto; }
+  margin: 2.5rem auto; }
 
 @media (max-width: 36rem) {
   .section__project-text {
@@ -491,12 +496,21 @@ body {
 
 .section__project-text--caption {
   font-style: italic;
+  font-size: 1.125rem;
   margin-top: 0.25rem;
+  margin-bottom: 4rem;
   max-width: 100%;
   text-align: center; }
 
 .section__project-text--link {
   color: inherit; }
+
+.section__project-text--quote {
+  max-width: 32rem;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  -webkit-filter: opacity(80%);
+  filter: opacity(80%); }
 
 /* subheading block */
 .section__subheading {
