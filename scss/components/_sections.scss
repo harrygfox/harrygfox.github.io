@@ -16,15 +16,21 @@
   }
 }
 
-.section--bigfont {
-  font-size: 1.75rem;
-}
-@media (max-width: $mid) {
-  .section--bigfont {
-    font-size: 1.25rem;
-  }
-}
-
 .section--centered {
   text-align: center;
 }
+
+.section--after-break {
+  margin: 12rem auto 6rem;
+  position: relative;
+}
+    .section--after-break::before {
+      content: "";
+      width: 200%;
+      height: 1rem;
+      background-color: $pink;
+      display: block;
+      left: -100%;
+      position: absolute;
+      top: -0.125rem;
+    }

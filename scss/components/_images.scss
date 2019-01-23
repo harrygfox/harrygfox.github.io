@@ -9,10 +9,12 @@
   border-radius: 46%;
   max-width: 50%;
   margin: auto;
+  filter: opacity(40%);
 }
 @media (max-width: $small) {
   .img--hero{
     max-width: 65%;
+
   }
 }
 
