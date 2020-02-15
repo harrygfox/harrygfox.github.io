@@ -1,0 +1,39 @@
+@-webkit-keyframes dancingshadow {
+    0%      {text-shadow: $blue -6px  -4px  0px   ;} /* BLUE */
+    12.5%   {text-shadow: rgb(59, 123, 134) -4px  -8px  0px   ;}    /* half way */
+    25%     {text-shadow: $green   0px -10px  0px   ;} /* GREEN */
+    37.5%   {text-shadow: rgb(59, 123, 134)  4px  -8px  0px   ;}    /* half way */
+    50%     {text-shadow: $blue  6px  -4px  0px   ;} /* BLUE */
+    62.5%   {text-shadow: rgb(112, 88, 140)  4px   0px  0px   ;}    /* half way */
+    75%     {text-shadow: $pink  0px   2px  0px   ;} /* PINK */
+    87.5%   {text-shadow: rgb(112, 88, 140) -4px   0px  0px   ;}    /* half way */
+    100%    {text-shadow: $blue -6px  -4px  0px   ;} /* BLUE */
+}
+
+@keyframes dancingshadow {
+    0%      {text-shadow: $blue -6px  -4px  0px   ;} /* BLUE */
+    12.5%   {text-shadow: rgb(59, 123, 134) -4px  -8px  0px   ;}    /* half way */
+    25%     {text-shadow: $green   0px -10px  0px   ;} /* GREEN */
+    37.5%   {text-shadow: rgb(59, 123, 134)  4px  -8px  0px   ;}    /* half way */
+    50%     {text-shadow: $blue  6px  -4px  0px   ;} /* BLUE */
+    62.5%   {text-shadow: rgb(112, 88, 140)  4px   0px  0px   ;}    /* half way */
+    75%     {text-shadow: $pink  0px   2px  0px   ;} /* PINK */
+    87.5%   {text-shadow: rgb(112, 88, 140) -4px   0px  0px   ;}    /* half way */
+    100%    {text-shadow: $blue -6px  -4px  0px   ;} /* BLUE */
+}
+
+.titles__primary {
+    -webkit-animation-name: dancingshadow;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    animation-name: dancingshadow;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}

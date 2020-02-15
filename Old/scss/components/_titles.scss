@@ -1,0 +1,56 @@
+/* Titles block   */
+
+.titles {
+  word-wrap: break-word;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: $mid) {
+  .titles {
+    font-size: 0.7rem;
+  }
+}
+
+    .titles__primary {
+      margin: 0;
+
+      font-family: $accent-font;
+      font-weight: normal;
+      font-size: 6em;
+
+      color: $purple;
+      text-shadow: rgb(36, 109, 173) -6px -4px 0px;
+    }
+    @media (max-width: $mid) {
+      .titles__primary {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+      }
+    }
+
+
+    .titles__secondary {
+      font-family: $primary-font;
+      font-size: 3.5em;
+
+      word-spacing: 1rem;
+      letter-spacing: 2px;
+
+      margin: 0.75rem auto;
+
+      color: $pink;
+    }
+
+    @media (max-width: $mid) {
+      .titles__secondary {
+        word-spacing: initial;
+        margin: 0;
+      }
+    }
+
+
+    .titles__project {
+      font-size: 3em;
+      font-weight: 500;
+      color: $pink;
+    }
